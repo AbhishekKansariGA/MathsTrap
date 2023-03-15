@@ -8,7 +8,7 @@ const divisionNum = Math.floor(Math.random() * 10) * 2;
 
 const threeRight = Math.floor(substractNum * multiplicationNum / divisionNum);
 
-const questionText = `${additionNum}-${substractNum}×${multiplicationNum}÷${divisionNum}`;
+const questionText = `${additionNum}-${substractNum}*${multiplicationNum}/${divisionNum}`;
 
 const mainAnswer = Math.floor(additionNum - threeRight);
 
