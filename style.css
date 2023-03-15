@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.headerImg {
+  border-radius: 50%;
+}
+
+.cardSection {
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -90%;
+}
+
+.card {
+  width: 50rem;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+
+.card-title {
+  font-size: 4rem;
+}
+
+.checkbox {
+  width: 1.5rem;
+  height: 2rem;
+}
+
+#text {
+  width: 10rem;
+}
+
+.btnsDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.imgMain,
+.imgSuccess,
+.imgError {
+  width: 100%;
+  height: 40rem;
+}
+
+
+/* Algebra Part */
+
+.algebraSectionMain{
+  display: none;
+}
+
+
+.btnAlgebra {
+  width:7rem;
+}
+
+
+.cardSectionAlgebra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.carAlgebra {
+  width: 90%;
+  height: 200vh;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#formAlgebra {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.algebraImg {
+  width: 40rem;
+  height: 40rem;
+}
+
+.headerImg {
+  border-radius: 50%;
+}
+
+.h5cardAlgebra {
+  font-size: 3.5rem;
+}
+
+#equation {
+  font-size: 3.75rem;
+}
+
+.inputAlgebra {
+  width: 20rem;
+}
+
+.result {
+  font-size: 2rem;
+}
+
+#btnNextAlgebra{
+  position: absolute;
+  bottom:15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+   .cardSection {
+    height: 100vh;
+    margin-top: -10%;
+  }
+
+  .card {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .h3Warn {
+    font-size: 1rem;
+  }
+
+  #text {
+    width: 14rem;
+  }
+
+  .imgMain,
+  .imgSuccess,
+  .imgError {
+    width: 100%;
+    height: 12rem;
+  }
+  
+  
+  /* Algebra Part*/
+  
+  .carAlgebra {
+    width: 20rem;
+  }
+
+  .h5cardAlgebra {
+    font-size: 2.5rem;
+  }
+
+  #equation {
+    font-size: 1.2rem;
+  }
+
+  .h5cardAlgebra {
+    font-size: 1.2rem;
+  }
+
+  .inputAlgebra {
+    width: 10rem;
+  }
+
+  .result {
+    font-size: 1.2rem;
+  }
+
+  .algebraImg {
+    height: 15rem;
+    width: 100%;
+  }
+}
